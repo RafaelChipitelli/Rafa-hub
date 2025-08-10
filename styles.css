@@ -147,3 +147,15 @@ footer {
     padding: 1rem;
     font-size: 0.9rem;
 }
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
