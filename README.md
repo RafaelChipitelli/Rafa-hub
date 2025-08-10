@@ -17,3 +17,25 @@ npm start
 ```
 
 O site estará disponível em [http://localhost:3000](http://localhost:3000).
+
+## Deploy na Vercel
+
+1. Instale o [Vercel CLI](https://vercel.com/docs/cli) globalmente:
+
+```bash
+npm install -g vercel
+```
+
+2. Realize o login com sua conta:
+
+```bash
+vercel login
+```
+
+3. Na raiz do projeto, execute o comando de deploy:
+
+```bash
+vercel
+```
+
+Ao final do processo, a URL gerada será exibida no terminal.
