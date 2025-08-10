@@ -2,6 +2,8 @@
    Estilos principais para o hub pessoal. Personalize cores e layout conforme necessário.
 */
 
+*, *::before, *::after { box-sizing: border-box; }
+
 /* Layout geral */
 body {
     font-family: 'Inter', sans-serif;
@@ -12,6 +14,7 @@ body {
     transition: background 0.5s, color 0.5s;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 /* Tema escuro */
